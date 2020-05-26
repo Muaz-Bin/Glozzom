@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/**********header section***********/
+header{
+  background: #000;
+}
+header .navbar button{
+  border: none;
+  outline: none;
+}
+header .navbar .nav-item{
+  margin-left: 20px;
+}
+header .navbar .nav-item .nav-link{
+  outline: none;
+}
+header .navbar .nav-item:last-child{
+  margin-left: 0;
+}
+/**********middle section***********/
+.carousel-section img{
+  height: 500px;
+  width: 100%;
+}
+.item-section i{
+  font-size: 60px;
+}
+.get-start{
+  background-image:url(img/pc.jpeg);
+  background-position: center;
+  background-size: covet;
+  background-attachment: fixed;
+}
+.get-start .get-start-bg{
+    background-color:rgba(0,0,0,.6);
+}
+.vdo-section {
+  background-image: url(img/people.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.vdo-section .vdo-dark{
+  background-color: rgba(0,0,0,.6)
+}
+.vdo-section .vdo-dark i{
+  font-size: 50px;
+}
+.gallery img{
+  height: 250px;
+}
+.ask-q .card .card-header a{
+  outline: none
+}
+/*  head title  */
+.head-title{
+  background-image: url(img/image2.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+/**********footer section***********/
+footer{
+  background: #000;
+  text-align: center;
+}
+/**********responsive header section*******/
+@media (max-width:767px){
+  header .navbar .nav-item{
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/**********header section***********/
+header{
+  background: #000;
+}
+header .navbar button{
+  border: none;
+  outline: none;
+}
+header .navbar .nav-item{
+  margin-left: 20px;
+}
+header .navbar .nav-item .nav-link{
+  outline: none;
+}
+header .navbar .nav-item:last-child{
+  margin-left: 0;
+}
+/*  about  */
+.about{
+  background-image: url(img/image2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.what-do img{
+  height: 370px;
+  width: 370px;
+}
+.card-sec .card i{
+  font-size: 50px;
+}
+.testimonial p{
+  font-style: italic;
+}
+.testimonial .hyfen::before{
+  background:#7e758d;
+  height: 1px;
+  width: 20px;
+  content: '';
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+.testimonial-info.owl-carousel.owl-loaded.owl-drag {
+  position: relative;
+}
+.testimonial .owl-nav button{
+  position: absolute;
+  transform: translate(-50%);
+  outline: none;
+}
+.owl-prev{
+  top: 25px;
+  left: -30px;
+}
+.owl-next{
+  top: 25px;
+  right:-25px;
+}
+footer{
+  background: #000;
+  text-align: center;
+}
+@media (max-width:767px){
+  header .navbar .nav-item{
+    margin-left: 0px;
+  }
+}
